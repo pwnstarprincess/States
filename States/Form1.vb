@@ -2,6 +2,7 @@
 
     Private Sub ReturnMessage()
 
+        ''If Cali Button Checked get applicable Message
         If (CaliButton.Checked) Then
 
             Select Case True
@@ -16,6 +17,7 @@
             End Select
         End If
 
+        ''If Indiana Button Checked get applicable Message
         If (IndianaButton.Checked) Then
 
             Select Case True
@@ -30,6 +32,7 @@
             End Select
         End If
 
+        ''If Mississippi Button Checked get applicable Message
         If (MississippiButton.Checked) Then
 
             Select Case True
@@ -44,6 +47,7 @@
             End Select
         End If
 
+        ''If New York Button Checked get applicable Message
         If (NewYorkButton.Checked) Then
 
             Select Case True
@@ -61,6 +65,20 @@
 
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        ''Run return message subroutine to get applicable Message
         ReturnMessage()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        ''On Form load set buttons to false
+        CaliButton.Checked = False
+        IndianaButton.Checked = False
+        MississippiButton.Checked = False
+        NewYorkButton.Checked = False
+        FlowerButton.Checked = False
+        NicknameButton.Checked = False
+        MottoButton.Checked = False
+
     End Sub
 End Class
