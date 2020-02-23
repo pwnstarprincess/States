@@ -112,7 +112,7 @@ Partial Class Form1
         Me.FlowerButton.Location = New System.Drawing.Point(6, 25)
         Me.FlowerButton.Name = "FlowerButton"
         Me.FlowerButton.Size = New System.Drawing.Size(81, 24)
-        Me.FlowerButton.TabIndex = 3
+        Me.FlowerButton.TabIndex = 0
         Me.FlowerButton.TabStop = True
         Me.FlowerButton.Text = "Flower"
         Me.FlowerButton.UseVisualStyleBackColor = True
@@ -123,7 +123,7 @@ Partial Class Form1
         Me.NicknameButton.Location = New System.Drawing.Point(6, 70)
         Me.NicknameButton.Name = "NicknameButton"
         Me.NicknameButton.Size = New System.Drawing.Size(104, 24)
-        Me.NicknameButton.TabIndex = 4
+        Me.NicknameButton.TabIndex = 1
         Me.NicknameButton.TabStop = True
         Me.NicknameButton.Text = "Nickname"
         Me.NicknameButton.UseVisualStyleBackColor = True
@@ -134,7 +134,7 @@ Partial Class Form1
         Me.MottoButton.Location = New System.Drawing.Point(6, 115)
         Me.MottoButton.Name = "MottoButton"
         Me.MottoButton.Size = New System.Drawing.Size(75, 24)
-        Me.MottoButton.TabIndex = 5
+        Me.MottoButton.TabIndex = 2
         Me.MottoButton.TabStop = True
         Me.MottoButton.Text = "Motto"
         Me.MottoButton.UseVisualStyleBackColor = True
