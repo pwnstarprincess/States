@@ -49,9 +49,9 @@
             Select Case True
                 Case FlowerButton.Checked
                     InfoBox.Text = "Rose"
-                Case MottoButton.Checked
-                    InfoBox.Text = "Empire State"
                 Case NicknameButton.Checked
+                    InfoBox.Text = "Empire State"
+                Case MottoButton.Checked
                     InfoBox.Text = "Ever Upward"
                 Case Else
                     InfoBox.Text = ""
