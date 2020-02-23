@@ -30,7 +30,7 @@ Partial Class Form1
         Me.NewYorkButton = New System.Windows.Forms.RadioButton()
         Me.FlowerButton = New System.Windows.Forms.RadioButton()
         Me.NicknameButton = New System.Windows.Forms.RadioButton()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
+        Me.MottoButton = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.InfoBox = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
@@ -52,7 +52,7 @@ Partial Class Form1
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.RadioButton7)
+        Me.GroupBox2.Controls.Add(Me.MottoButton)
         Me.GroupBox2.Controls.Add(Me.NicknameButton)
         Me.GroupBox2.Controls.Add(Me.FlowerButton)
         Me.GroupBox2.Location = New System.Drawing.Point(268, 27)
@@ -128,16 +128,16 @@ Partial Class Form1
         Me.NicknameButton.Text = "Nickname"
         Me.NicknameButton.UseVisualStyleBackColor = True
         '
-        'RadioButton7
+        'MottoButton
         '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Location = New System.Drawing.Point(6, 115)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(75, 24)
-        Me.RadioButton7.TabIndex = 5
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "Motto"
-        Me.RadioButton7.UseVisualStyleBackColor = True
+        Me.MottoButton.AutoSize = True
+        Me.MottoButton.Location = New System.Drawing.Point(6, 115)
+        Me.MottoButton.Name = "MottoButton"
+        Me.MottoButton.Size = New System.Drawing.Size(75, 24)
+        Me.MottoButton.TabIndex = 5
+        Me.MottoButton.TabStop = True
+        Me.MottoButton.Text = "Motto"
+        Me.MottoButton.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -182,7 +182,7 @@ Partial Class Form1
     Friend WithEvents IndianaButton As RadioButton
     Friend WithEvents CaliButton As RadioButton
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents RadioButton7 As RadioButton
+    Friend WithEvents MottoButton As RadioButton
     Friend WithEvents NicknameButton As RadioButton
     Friend WithEvents FlowerButton As RadioButton
     Friend WithEvents Button1 As Button

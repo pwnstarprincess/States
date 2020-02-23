@@ -1,57 +1,57 @@
 ﻿Public Class Form1
 
-    Private Sub ReturnMessage(state As Int16, Category As Int16)
+    Private Sub ReturnMessage()
 
-        If (state = 1) Then
+        If (CaliButton.Checked) Then
 
-            Select Case Category
-                Case "1"
+            Select Case True
+                Case FlowerButton.Checked
                     InfoBox.Text = "Golden poppy"
-                Case "2"
+                Case NicknameButton.Checked
                     InfoBox.Text = "Golden State"
-                Case "3"
+                Case MottoButton.Checked
                     InfoBox.Text = "Eureka"
                 Case Else
                     InfoBox.Text = ""
             End Select
         End If
 
-        If (state = 2) Then
+        If (IndianaButton.Checked) Then
 
-            Select Case Category
-                Case "1"
+            Select Case True
+                Case FlowerButton.Checked
                     InfoBox.Text = "Peony"
-                Case "2"
+                Case NicknameButton.Checked
                     InfoBox.Text = "Hoosier State"
-                Case "3"
+                Case MottoButton.Checked
                     InfoBox.Text = "Crossroads of America"
                 Case Else
                     InfoBox.Text = ""
             End Select
         End If
 
-        If (state = 3) Then
+        If (MississippiButton.Checked) Then
 
-            Select Case Category
-                Case "1"
+            Select Case True
+                Case FlowerButton.Checked
                     InfoBox.Text = "Magnolia"
-                Case "2"
+                Case NicknameButton.Checked
                     InfoBox.Text = "Magnolia State"
-                Case "3"
+                Case MottoButton.Checked
                     InfoBox.Text = "By Valor And Arms"
                 Case Else
                     InfoBox.Text = ""
             End Select
         End If
 
-        If (state = 4) Then
+        If (NewYorkButton.Checked) Then
 
-            Select Case Category
-                Case "1"
+            Select Case True
+                Case FlowerButton.Checked
                     InfoBox.Text = "Rose"
-                Case "2"
+                Case MottoButton.Checked
                     InfoBox.Text = "Empire State"
-                Case "3"
+                Case NicknameButton.Checked
                     InfoBox.Text = "Ever Upward"
                 Case Else
                     InfoBox.Text = ""
@@ -61,6 +61,6 @@
 
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
+        ReturnMessage()
     End Sub
 End Class
