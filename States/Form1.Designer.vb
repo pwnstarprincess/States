@@ -23,14 +23,14 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.CaliButton = New System.Windows.Forms.RadioButton()
-        Me.IndianaButton = New System.Windows.Forms.RadioButton()
-        Me.MississippiButton = New System.Windows.Forms.RadioButton()
         Me.NewYorkButton = New System.Windows.Forms.RadioButton()
-        Me.FlowerButton = New System.Windows.Forms.RadioButton()
-        Me.NicknameButton = New System.Windows.Forms.RadioButton()
+        Me.MississippiButton = New System.Windows.Forms.RadioButton()
+        Me.IndianaButton = New System.Windows.Forms.RadioButton()
+        Me.CaliButton = New System.Windows.Forms.RadioButton()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.MottoButton = New System.Windows.Forms.RadioButton()
+        Me.NicknameButton = New System.Windows.Forms.RadioButton()
+        Me.FlowerButton = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.InfoBox = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
@@ -50,39 +50,16 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "States"
         '
-        'GroupBox2
+        'NewYorkButton
         '
-        Me.GroupBox2.Controls.Add(Me.MottoButton)
-        Me.GroupBox2.Controls.Add(Me.NicknameButton)
-        Me.GroupBox2.Controls.Add(Me.FlowerButton)
-        Me.GroupBox2.Location = New System.Drawing.Point(268, 27)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(200, 155)
-        Me.GroupBox2.TabIndex = 1
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Category"
-        '
-        'CaliButton
-        '
-        Me.CaliButton.AutoSize = True
-        Me.CaliButton.Location = New System.Drawing.Point(6, 25)
-        Me.CaliButton.Name = "CaliButton"
-        Me.CaliButton.Size = New System.Drawing.Size(100, 24)
-        Me.CaliButton.TabIndex = 0
-        Me.CaliButton.TabStop = True
-        Me.CaliButton.Text = "California"
-        Me.CaliButton.UseVisualStyleBackColor = True
-        '
-        'IndianaButton
-        '
-        Me.IndianaButton.AutoSize = True
-        Me.IndianaButton.Location = New System.Drawing.Point(6, 55)
-        Me.IndianaButton.Name = "IndianaButton"
-        Me.IndianaButton.Size = New System.Drawing.Size(87, 24)
-        Me.IndianaButton.TabIndex = 1
-        Me.IndianaButton.TabStop = True
-        Me.IndianaButton.Text = "Indiana"
-        Me.IndianaButton.UseVisualStyleBackColor = True
+        Me.NewYorkButton.AutoSize = True
+        Me.NewYorkButton.Location = New System.Drawing.Point(6, 115)
+        Me.NewYorkButton.Name = "NewYorkButton"
+        Me.NewYorkButton.Size = New System.Drawing.Size(102, 24)
+        Me.NewYorkButton.TabIndex = 3
+        Me.NewYorkButton.TabStop = True
+        Me.NewYorkButton.Text = "New York"
+        Me.NewYorkButton.UseVisualStyleBackColor = True
         '
         'MississippiButton
         '
@@ -95,27 +72,50 @@ Partial Class Form1
         Me.MississippiButton.Text = "Mississippi"
         Me.MississippiButton.UseVisualStyleBackColor = True
         '
-        'NewYorkButton
+        'IndianaButton
         '
-        Me.NewYorkButton.AutoSize = True
-        Me.NewYorkButton.Location = New System.Drawing.Point(6, 115)
-        Me.NewYorkButton.Name = "NewYorkButton"
-        Me.NewYorkButton.Size = New System.Drawing.Size(102, 24)
-        Me.NewYorkButton.TabIndex = 3
-        Me.NewYorkButton.TabStop = True
-        Me.NewYorkButton.Text = "New York"
-        Me.NewYorkButton.UseVisualStyleBackColor = True
+        Me.IndianaButton.AutoSize = True
+        Me.IndianaButton.Location = New System.Drawing.Point(6, 55)
+        Me.IndianaButton.Name = "IndianaButton"
+        Me.IndianaButton.Size = New System.Drawing.Size(87, 24)
+        Me.IndianaButton.TabIndex = 1
+        Me.IndianaButton.TabStop = True
+        Me.IndianaButton.Text = "Indiana"
+        Me.IndianaButton.UseVisualStyleBackColor = True
         '
-        'FlowerButton
+        'CaliButton
         '
-        Me.FlowerButton.AutoSize = True
-        Me.FlowerButton.Location = New System.Drawing.Point(6, 25)
-        Me.FlowerButton.Name = "FlowerButton"
-        Me.FlowerButton.Size = New System.Drawing.Size(81, 24)
-        Me.FlowerButton.TabIndex = 0
-        Me.FlowerButton.TabStop = True
-        Me.FlowerButton.Text = "Flower"
-        Me.FlowerButton.UseVisualStyleBackColor = True
+        Me.CaliButton.AutoSize = True
+        Me.CaliButton.Location = New System.Drawing.Point(6, 25)
+        Me.CaliButton.Name = "CaliButton"
+        Me.CaliButton.Size = New System.Drawing.Size(100, 24)
+        Me.CaliButton.TabIndex = 0
+        Me.CaliButton.TabStop = True
+        Me.CaliButton.Text = "California"
+        Me.CaliButton.UseVisualStyleBackColor = True
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.MottoButton)
+        Me.GroupBox2.Controls.Add(Me.NicknameButton)
+        Me.GroupBox2.Controls.Add(Me.FlowerButton)
+        Me.GroupBox2.Location = New System.Drawing.Point(268, 27)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(200, 155)
+        Me.GroupBox2.TabIndex = 1
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Category"
+        '
+        'MottoButton
+        '
+        Me.MottoButton.AutoSize = True
+        Me.MottoButton.Location = New System.Drawing.Point(6, 115)
+        Me.MottoButton.Name = "MottoButton"
+        Me.MottoButton.Size = New System.Drawing.Size(75, 24)
+        Me.MottoButton.TabIndex = 2
+        Me.MottoButton.TabStop = True
+        Me.MottoButton.Text = "Motto"
+        Me.MottoButton.UseVisualStyleBackColor = True
         '
         'NicknameButton
         '
@@ -128,16 +128,16 @@ Partial Class Form1
         Me.NicknameButton.Text = "Nickname"
         Me.NicknameButton.UseVisualStyleBackColor = True
         '
-        'MottoButton
+        'FlowerButton
         '
-        Me.MottoButton.AutoSize = True
-        Me.MottoButton.Location = New System.Drawing.Point(6, 115)
-        Me.MottoButton.Name = "MottoButton"
-        Me.MottoButton.Size = New System.Drawing.Size(75, 24)
-        Me.MottoButton.TabIndex = 2
-        Me.MottoButton.TabStop = True
-        Me.MottoButton.Text = "Motto"
-        Me.MottoButton.UseVisualStyleBackColor = True
+        Me.FlowerButton.AutoSize = True
+        Me.FlowerButton.Location = New System.Drawing.Point(6, 25)
+        Me.FlowerButton.Name = "FlowerButton"
+        Me.FlowerButton.Size = New System.Drawing.Size(81, 24)
+        Me.FlowerButton.TabIndex = 0
+        Me.FlowerButton.TabStop = True
+        Me.FlowerButton.Text = "Flower"
+        Me.FlowerButton.UseVisualStyleBackColor = True
         '
         'Button1
         '
