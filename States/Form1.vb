@@ -85,4 +85,5 @@ Public Class Form1
         MottoButton.Checked = False
 
     End Sub
+
 End Class
