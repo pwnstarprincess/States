@@ -69,7 +69,7 @@
         ReturnMessage()
     End Sub
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Form1_Shown(sender As Object, e As EventArgs) Handles MyBase.Shown
 
         ''On Form load set buttons to false
         CaliButton.Checked = False
